@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Management", "Xprema.Management\Xprema.Management.csproj", "{A636C4F5-CC3C-4C7F-867E-233AAF71530D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Managment.Application", "Xprema.Managment.Application\Xprema.Managment.Application.csproj", "{67EA7072-4C38-49C7-BFB7-8319CF4F6C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Framework", "Xprema.Framework\Xprema.Framework.csproj", "{AAACBC8B-1B8D-4823-992E-18ADC7D98CB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A636C4F5-CC3C-4C7F-867E-233AAF71530D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A636C4F5-CC3C-4C7F-867E-233AAF71530D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A636C4F5-CC3C-4C7F-867E-233AAF71530D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A636C4F5-CC3C-4C7F-867E-233AAF71530D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EA7072-4C38-49C7-BFB7-8319CF4F6C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EA7072-4C38-49C7-BFB7-8319CF4F6C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EA7072-4C38-49C7-BFB7-8319CF4F6C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EA7072-4C38-49C7-BFB7-8319CF4F6C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAACBC8B-1B8D-4823-992E-18ADC7D98CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAACBC8B-1B8D-4823-992E-18ADC7D98CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAACBC8B-1B8D-4823-992E-18ADC7D98CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAACBC8B-1B8D-4823-992E-18ADC7D98CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

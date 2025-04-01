@@ -3,3 +3,34 @@ GET {{XpremaManagement_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+### Get all employees
+GET http://localhost:5000/api/Employee
+
+### Get employee by ID
+GET http://localhost:5000/api/Employee/1
+
+### Add a new employee
+POST http://localhost:5000/api/Employee
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "personalInfo": "Some info",
+  "departmentID": 1,
+  "userAccountID": 1
+}
+
+### Update an existing employee
+PUT http://localhost:5000/api/Employee/1
+Content-Type: application/json
+
+{
+  "name": "John Doe Updated",
+  "personalInfo": "Updated info",
+  "departmentID": 1,
+  "userAccountID": 1
+}
+
+### Delete an employee
+DELETE http://localhost:5000/api/Employee/1

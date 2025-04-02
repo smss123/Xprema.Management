@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Xprema.Management")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdc59184aaa2036e22f8fba90b8bb3beaabbe869")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+745fa37fdb7f556f6dccecd51e183bd7c3a2191d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Xprema.Management")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Xprema.Management")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

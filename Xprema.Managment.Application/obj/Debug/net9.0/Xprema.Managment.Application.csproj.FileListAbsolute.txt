@@ -1,0 +1,12 @@
+C:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\bin\Debug\net9.0\Xprema.Managment.Application.deps.json
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\bin\Debug\net9.0\Xprema.Managment.Application.dll
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\bin\Debug\net9.0\Xprema.Managment.Application.pdb
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\obj\Debug\net9.0\Xprema.Managment.Application.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\obj\Debug\net9.0\Xprema.Managment.Application.AssemblyInfoInputs.cache
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\obj\Debug\net9.0\Xprema.Managment.Application.AssemblyInfo.cs
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\obj\Debug\net9.0\Xprema.Managment.Application.csproj.CoreCompileInputs.cache
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\obj\Debug\net9.0\Xprema.Managment.Application.sourcelink.json
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\obj\Debug\net9.0\Xprema.Managment.Application.dll
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\obj\Debug\net9.0\refint\Xprema.Managment.Application.dll
+c:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\obj\Debug\net9.0\Xprema.Managment.Application.pdb
+C:\Users\smsss\RiderProjects\Xprema.Management\Xprema.Managment.Application\obj\Debug\net9.0\ref\Xprema.Managment.Application.dll

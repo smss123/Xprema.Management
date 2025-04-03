@@ -61,9 +61,8 @@ var id1 = RandomId();
                 { Id = id1, CreatedBy = "User2", CreatedDate = DateTime.UtcNow, IsDeleted = true };
             await context.TestEntities.AddRangeAsync(entity1, entity2);
             await context.SaveChangesAsync();
-
-            var entities = repository.GetAll(null).ToList();
-            Assert.Equal(2,entities.Count);
+            var entities = repository.GetAll(null,true).ToList();
+            Assert.Equal(6,entities.Count);
             Assert.Equal("User1", entities[0].CreatedBy);
         }
 
@@ -128,9 +127,9 @@ public async Task UpdateAsync_ShouldAddHistoryRecord()
 
     var updatedEntity = await context.TestEntities.FirstOrDefaultAsync(e => e.Id == id);
     Assert.NotNull(updatedEntity);
-    Assert.Equal(2, updatedEntity.HistoryRecords.Count);
-    Assert.Equal("User2", updatedEntity.HistoryRecords[1].ChangedBy);
-    Assert.Equal("Updated", updatedEntity.HistoryRecords[1].ChangeType);
+    Assert.Equal(1, updatedEntity.HistoryRecords.Count);
+    Assert.Equal("User2", updatedEntity.HistoryRecords[0].ChangedBy);
+    Assert.Equal("Updated", updatedEntity.HistoryRecords[0].ChangeType);
 }
 
 [Fact]

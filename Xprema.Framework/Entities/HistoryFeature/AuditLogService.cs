@@ -35,7 +35,9 @@ public class AuditLogService : IAuditLogService
                 OldValues = oldValues,
                 NewValues = newValues,
                 Timestamp = DateTime.UtcNow,
-                TenantId = _tenantContextAccessor.GetCurrentTenantId()
+                TenantId = _tenantContextAccessor.GetCurrentTenantId(),
+                CreatedBy = userId ?? "system",
+                CreatedDate = DateTime.UtcNow
             };
             
             _dbContext.Add(auditLog);

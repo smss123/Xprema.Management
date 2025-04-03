@@ -25,10 +25,24 @@ public class TokenServiceTests : TestBase
         
         Assert.True(isValid);
         Assert.NotNull(claims);
-        Assert.True(claims.ContainsKey("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"));
-        Assert.Equal(user.Id.ToString(), claims["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"]);
-        Assert.Equal(user.Username, claims["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"]);
-        Assert.Equal(user.Email, claims["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"]);
+        
+        // Output all claims for debugging
+        foreach (var claim in claims)
+        {
+            Console.WriteLine($"Claim: {claim.Key} = {claim.Value}");
+        }
+        
+        // Use the exact claim types from JWT
+        Assert.True(claims.ContainsKey("nameid") || claims.ContainsKey("sub"), "JWT should contain a subject identifier claim");
+        Assert.True(claims.ContainsKey("unique_name") || claims.ContainsKey("name"), "JWT should contain a name claim");
+        Assert.True(claims.ContainsKey("email"), "JWT should contain an email claim");
+        
+        string nameIdValue = claims.ContainsKey("nameid") ? claims["nameid"] : claims["sub"];
+        string nameValue = claims.ContainsKey("unique_name") ? claims["unique_name"] : claims["name"];
+        
+        Assert.Equal(user.Id.ToString(), nameIdValue);
+        Assert.Equal(user.Username, nameValue);
+        Assert.Equal(user.Email, claims["email"]);
     }
     
     [Fact]

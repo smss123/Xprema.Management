@@ -60,7 +60,9 @@ public class AuthenticationService : IAuthenticationService
                 PhoneNumber = request.PhoneNumber,
                 PasswordHash = HashPassword(request.Password),
                 SecurityStamp = Guid.NewGuid().ToString("N"),
-                EmailConfirmed = false
+                EmailConfirmed = false,
+                CreatedBy = "system",
+                CreatedDate = DateTime.UtcNow
             };
             
             _dbContext.Add(user);
@@ -207,7 +209,9 @@ public class AuthenticationService : IAuthenticationService
                     TokenType = "RefreshToken",
                     TokenValue = refreshToken,
                     ExpirationDate = DateTime.UtcNow.AddDays(30),
-                    TenantId = request.TenantId ?? _tenantContextAccessor.GetCurrentTenantId()
+                    TenantId = request.TenantId ?? _tenantContextAccessor.GetCurrentTenantId(),
+                    CreatedBy = "system",
+                    CreatedDate = DateTime.UtcNow
                 };
                 
                 _dbContext.Add(userToken);
@@ -299,7 +303,9 @@ public class AuthenticationService : IAuthenticationService
             TokenType = "PasswordReset",
             TokenValue = token,
             ExpirationDate = DateTime.UtcNow.AddHours(24),
-            TenantId = _tenantContextAccessor.GetCurrentTenantId()
+            TenantId = _tenantContextAccessor.GetCurrentTenantId(),
+            CreatedBy = "system",
+            CreatedDate = DateTime.UtcNow
         };
         
         _dbContext.Add(resetToken);
@@ -410,7 +416,9 @@ public class AuthenticationService : IAuthenticationService
                 UserId = user.Id,
                 TokenType = "2FARecovery",
                 TokenValue = code,
-                TenantId = _tenantContextAccessor.GetCurrentTenantId()
+                TenantId = _tenantContextAccessor.GetCurrentTenantId(),
+                CreatedBy = "system",
+                CreatedDate = DateTime.UtcNow
             };
             
             _dbContext.Add(userToken);

@@ -192,7 +192,9 @@ public class AuditLogServiceTests : TestBase
             OldValues = oldValues,
             NewValues = newValues,
             Timestamp = timestamp ?? DateTime.UtcNow,
-            TenantId = TenantContextAccessor.GetCurrentTenantId()
+            TenantId = TenantContextAccessor.GetCurrentTenantId(),
+            CreatedBy = "system",
+            CreatedDate = DateTime.UtcNow
         };
         
         DbContext.AuditLogs.Add(auditLog);

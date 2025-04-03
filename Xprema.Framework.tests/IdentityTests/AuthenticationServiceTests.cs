@@ -227,7 +227,9 @@ public class AuthenticationServiceTests : TestBase
             TokenType = "PasswordReset",
             TokenValue = "ValidResetToken",
             ExpirationDate = DateTime.UtcNow.AddHours(24),
-            TenantId = TenantContextAccessor.GetCurrentTenantId()
+            TenantId = TenantContextAccessor.GetCurrentTenantId(),
+            CreatedBy = "system",
+            CreatedDate = DateTime.UtcNow
         };
         
         DbContext.UserTokens.Add(resetToken);
@@ -331,7 +333,9 @@ public class AuthenticationServiceTests : TestBase
             TokenType = "RefreshToken",
             TokenValue = "ValidRefreshToken",
             ExpirationDate = DateTime.UtcNow.AddDays(30),
-            TenantId = TenantContextAccessor.GetCurrentTenantId()
+            TenantId = TenantContextAccessor.GetCurrentTenantId(),
+            CreatedBy = "system",
+            CreatedDate = DateTime.UtcNow
         };
         
         DbContext.UserTokens.Add(refreshToken);

@@ -1,0 +1,91 @@
+# .NET build files - handles all projects in solution
+**/bin/
+**/obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+**/*.DotSettings.user
+
+# Individual project build results
+# Xprema.Framework
+Xprema.Framework/bin/
+Xprema.Framework/obj/
+
+# Xprema.Framework.tests
+Xprema.Framework.tests/bin/
+Xprema.Framework.tests/obj/
+
+# Xprema.Management
+Xprema.Management/bin/
+Xprema.Management/obj/
+
+# Xprema.Managment.Application
+Xprema.Managment.Application/bin/
+Xprema.Managment.Application/obj/
+
+# Visual Studio files
+.vs/
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.cache
+**/*.csproj.user
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains Rider
+**/.idea/
+*.sln.iml
+**/*.DotSettings
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Build specific files
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Local History for Visual Studio
+.localhistory/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Specific project-generated files
+**/project.assets.json
+**/project.nuget.cache
+**/project.packagespec.json
+**/rider.project.model.nuget.info
+**/rider.project.restore.info
+**/*.csproj.nuget.dgspec.json
+**/*.csproj.nuget.g.props
+**/*.csproj.nuget.g.targets

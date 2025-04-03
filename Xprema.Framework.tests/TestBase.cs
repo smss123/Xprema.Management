@@ -61,6 +61,9 @@ public abstract class TestBase : IDisposable
         services.AddScoped<IPermissionService, PermissionService<TestDbContext>>();
         services.AddScoped<ITokenService, TokenService>();
         services.AddScoped<IAuditLogService, AuditLogService>();
+        services.AddScoped<IAuthorizationService, AuthorizationService>();
+        services.AddScoped<IPermissionManager, PermissionManager>();
+        services.AddScoped<IPermissionDefinitionContext, PermissionDefinitionContext>();
         services.AddScoped<IAuthenticationService>(provider => 
             new AuthenticationService(
                 provider.GetRequiredService<TestDbContext>(),

@@ -1,5 +1,4 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Management", "Xprema.Management\Xprema.Management.csproj", "{A636C4F5-CC3C-4C7F-867E-233AAF71530D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Managment.Application", "Xprema.Managment.Application\Xprema.Managment.Application.csproj", "{67EA7072-4C38-49C7-BFB7-8319CF4F6C37}"
@@ -11,6 +10,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4F1D2C6F-B6EE-435A-B65F-F48EEC1F2731}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Framework.tests", "Xprema.Framework.tests\Xprema.Framework.tests.csproj", "{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.EntityFrameworkCore.Migrations", "dtv\Xprema.EntityFrameworkCore.Migrations\Xprema.EntityFrameworkCore.Migrations.csproj", "{ABABABAB-ABAB-ABAB-ABAB-ABABABABABAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.EntityFrameworkCore.Migrator", "dtv\Xprema.EntityFrameworkCore.Migrator\Xprema.EntityFrameworkCore.Migrator.csproj", "{CDCDCDCD-CDCD-CDCD-CDCD-CDCDCDCDCDCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dtv", "dtv", "{EFEFEFEF-EFEF-EFEF-EFEF-EFEFEFEFEFEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,11 +39,24 @@ Global
 		{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABABABAB-ABAB-ABAB-ABAB-ABABABABABAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABABABAB-ABAB-ABAB-ABAB-ABABABABABAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABABABAB-ABAB-ABAB-ABAB-ABABABABABAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABABABAB-ABAB-ABAB-ABAB-ABABABABABAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCDCDCD-CDCD-CDCD-CDCD-CDCDCDCDCDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCDCDCD-CDCD-CDCD-CDCD-CDCDCDCDCDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCDCDCD-CDCD-CDCD-CDCD-CDCDCDCDCDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCDCDCD-CDCD-CDCD-CDCD-CDCDCDCDCDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AAACBC8B-1B8D-4823-992E-18ADC7D98CB0} = {B399593D-C26B-425B-B981-4DDD3B9B2CEC}
 		{A636C4F5-CC3C-4C7F-867E-233AAF71530D} = {B399593D-C26B-425B-B981-4DDD3B9B2CEC}
 		{67EA7072-4C38-49C7-BFB7-8319CF4F6C37} = {B399593D-C26B-425B-B981-4DDD3B9B2CEC}
 		{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F} = {4F1D2C6F-B6EE-435A-B65F-F48EEC1F2731}
+		{ABABABAB-ABAB-ABAB-ABAB-ABABABABABAB} = {EFEFEFEF-EFEF-EFEF-EFEF-EFEFEFEFEFEF}
+		{CDCDCDCD-CDCD-CDCD-CDCD-CDCDCDCDCDCD} = {EFEFEFEF-EFEF-EFEF-EFEF-EFEFEFEFEFEF}
 	EndGlobalSection
 EndGlobal

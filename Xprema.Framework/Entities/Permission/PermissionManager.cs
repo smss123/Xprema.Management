@@ -74,6 +74,9 @@ public class PermissionManager : IPermissionManager
     /// <summary>
     /// Ensures a permission exists in the database
     /// </summary>
+    /// <param name="permissionDefinition">The permission definition to ensure exists</param>
+    /// <param name="createdBy">The user creating the permission (defaults to "system")</param>
+    /// <returns>A task representing the asynchronous operation</returns>
     public async Task EnsurePermissionAsync(PermissionDefinition permissionDefinition, string createdBy = "system")
     {
         // Get the permission service from service provider
@@ -81,16 +84,16 @@ public class PermissionManager : IPermissionManager
         
         try
         {
-            var existingPermissions = permissionService.GetUserPermissionsAsync(Guid.Empty);
+            var existingPermissions = await permissionService.GetUserPermissionsAsync(Guid.Empty);
             
             // Check if the permission exists by system name
-            if (existingPermissions.Result.Any(p => p.SystemName == permissionDefinition.Name))
+            if (existingPermissions.Any(p => p.SystemName == permissionDefinition.Name))
             {
                 return;
             }
             
             // Create the permission in the database
-            await permissionService.CreatePermissionAsync(
+            var result = await permissionService.CreatePermissionAsync(
                 permissionDefinition.DisplayName,
                 permissionDefinition.Name,
                 permissionDefinition.Description,
@@ -103,9 +106,11 @@ public class PermissionManager : IPermissionManager
                 await EnsurePermissionAsync(child, createdBy);
             }
         }
-        catch (Exception)
+        catch (Exception ex)
         {
-            // Ignore exceptions during startup
+            // Log exception and rethrow
+            Console.WriteLine($"Error ensuring permission: {ex.Message}");
+            throw;
         }
     }
     

@@ -82,11 +82,11 @@ public class PermissionAuthorizationFilter : IAsyncAuthorizationFilter
             
             if (attribute.RequireAllPermissions)
             {
-                isAuthorized = await _authorizationService.IsGrantedAllAsync(attribute.PermissionNames);
+                isAuthorized = await _authorizationService.IsGrantedAllAsync(attribute.PermissionNames ?? Array.Empty<string>());
             }
             else
             {
-                isAuthorized = await _authorizationService.IsGrantedAnyAsync(attribute.PermissionNames);
+                isAuthorized = await _authorizationService.IsGrantedAnyAsync(attribute.PermissionNames ?? Array.Empty<string>());
             }
             
             if (!isAuthorized)

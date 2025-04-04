@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Management", "Xprema.Management\Xprema.Management.csproj", "{A636C4F5-CC3C-4C7F-867E-233AAF71530D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Managment.Application", "Xprema.Managment.Application\Xprema.Managment.Application.csproj", "{67EA7072-4C38-49C7-BFB7-8319CF4F6C37}"
@@ -11,6 +12,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4F1D2C6F-B6EE-435A-B65F-F48EEC1F2731}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Framework.tests", "Xprema.Framework.tests\Xprema.Framework.tests.csproj", "{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManagmentSystem", "ManagmentSystem", "{7F3D31BA-93BD-8B7F-2781-E097651C932B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xprema.Managment.Domain", "src\ManagmentSystem\Xprema.Managment.Domain\Xprema.Managment.Domain.csproj", "{BD52A0D4-83DA-4F31-9746-CE3E57841C75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,11 +39,20 @@ Global
 		{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD52A0D4-83DA-4F31-9746-CE3E57841C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD52A0D4-83DA-4F31-9746-CE3E57841C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD52A0D4-83DA-4F31-9746-CE3E57841C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD52A0D4-83DA-4F31-9746-CE3E57841C75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AAACBC8B-1B8D-4823-992E-18ADC7D98CB0} = {B399593D-C26B-425B-B981-4DDD3B9B2CEC}
-		{A636C4F5-CC3C-4C7F-867E-233AAF71530D} = {B399593D-C26B-425B-B981-4DDD3B9B2CEC}
-		{67EA7072-4C38-49C7-BFB7-8319CF4F6C37} = {B399593D-C26B-425B-B981-4DDD3B9B2CEC}
 		{0FD558EF-5EAE-48B9-9947-B5F0B24FBA9F} = {4F1D2C6F-B6EE-435A-B65F-F48EEC1F2731}
+		{7F3D31BA-93BD-8B7F-2781-E097651C932B} = {B399593D-C26B-425B-B981-4DDD3B9B2CEC}
+		{A636C4F5-CC3C-4C7F-867E-233AAF71530D} = {7F3D31BA-93BD-8B7F-2781-E097651C932B}
+		{67EA7072-4C38-49C7-BFB7-8319CF4F6C37} = {7F3D31BA-93BD-8B7F-2781-E097651C932B}
+		{BD52A0D4-83DA-4F31-9746-CE3E57841C75} = {7F3D31BA-93BD-8B7F-2781-E097651C932B}
 	EndGlobalSection
 EndGlobal

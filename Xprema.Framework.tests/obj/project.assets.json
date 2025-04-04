@@ -5256,40 +5256,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\smsss\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/samerabdallah/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Framework.tests\\Xprema.Framework.tests.csproj",
+      "projectUniqueName": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework.tests/Xprema.Framework.tests.csproj",
       "projectName": "Xprema.Framework.tests",
-      "projectPath": "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Framework.tests\\Xprema.Framework.tests.csproj",
-      "packagesPath": "C:\\Users\\smsss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Framework.tests\\obj\\",
+      "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework.tests/Xprema.Framework.tests.csproj",
+      "packagesPath": "/Users/samerabdallah/.nuget/packages/",
+      "outputPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework.tests/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\smsss\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/samerabdallah/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Framework\\Xprema.Framework.csproj": {
-              "projectPath": "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Framework\\Xprema.Framework.csproj"
+            "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj": {
+              "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj"
             }
           }
         }
@@ -5304,7 +5297,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -5355,7 +5348,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

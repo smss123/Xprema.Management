@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Management\\Xprema.Management.csproj": {}
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Management/Xprema.Management.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Management\\Xprema.Management.csproj": {
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Management\\Xprema.Management.csproj",
-        "projectName": "Xprema.Management",
-        "projectPath": "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Management\\Xprema.Management.csproj",
-        "packagesPath": "C:\\Users\\smsss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smsss\\RiderProjects\\Xprema.Management\\Xprema.Management\\obj\\",
+        "projectUniqueName": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj",
+        "projectName": "Xprema.Framework",
+        "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj",
+        "packagesPath": "/Users/samerabdallah/.nuget/packages/",
+        "outputPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\smsss\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/samerabdallah/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +39,101 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Management/Xprema.Management.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Management/Xprema.Management.csproj",
+        "projectName": "Xprema.Management",
+        "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Management/Xprema.Management.csproj",
+        "packagesPath": "/Users/samerabdallah/.nuget/packages/",
+        "outputPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Management/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/samerabdallah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -93,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

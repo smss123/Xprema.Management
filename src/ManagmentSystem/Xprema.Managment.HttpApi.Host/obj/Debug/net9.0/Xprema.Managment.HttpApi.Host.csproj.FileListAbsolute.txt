@@ -1,0 +1,8 @@
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/obj/Debug/net9.0/Xprema.Managment.HttpApi.Host.csproj.AssemblyReference.cache
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/obj/Debug/net9.0/Xprema.Managment.HttpApi.Host.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/obj/Debug/net9.0/Xprema.Managment.HttpApi.Host.AssemblyInfoInputs.cache
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/obj/Debug/net9.0/Xprema.Managment.HttpApi.Host.AssemblyInfo.cs
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/obj/Debug/net9.0/Xprema.Managment.HttpApi.Host.csproj.CoreCompileInputs.cache
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/obj/Debug/net9.0/Xprema.Managment.HttpApi.Host.MvcApplicationPartsAssemblyInfo.cs
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/obj/Debug/net9.0/Xprema.Managment.HttpApi.Host.MvcApplicationPartsAssemblyInfo.cache
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/obj/Debug/net9.0/Xprema.Managment.HttpApi.Host.sourcelink.json

@@ -1,0 +1,16 @@
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/bin/Debug/net9.0/Xprema.Managment.Domain.deps.json
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/bin/Debug/net9.0/Xprema.Managment.Domain.dll
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/bin/Debug/net9.0/Xprema.Managment.Domain.pdb
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/bin/Debug/net9.0/Xprema.Framework.dll
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/bin/Debug/net9.0/Xprema.Framework.pdb
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.csproj.AssemblyReference.cache
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.AssemblyInfoInputs.cache
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.AssemblyInfo.cs
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.csproj.CoreCompileInputs.cache
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.sourcelink.json
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.M.8A240594.Up2Date
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.dll
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/refint/Xprema.Managment.Domain.dll
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.pdb
+/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/ref/Xprema.Managment.Domain.dll

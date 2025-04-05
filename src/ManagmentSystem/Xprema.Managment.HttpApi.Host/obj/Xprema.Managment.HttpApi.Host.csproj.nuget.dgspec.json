@@ -1,0 +1,506 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/Xprema.Managment.HttpApi.Host.csproj": {}
+  },
+  "projects": {
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application.Contracts/Xprema.Managment.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application.Contracts/Xprema.Managment.Application.Contracts.csproj",
+        "projectName": "Xprema.Managment.Application.Contracts",
+        "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application.Contracts/Xprema.Managment.Application.Contracts.csproj",
+        "packagesPath": "/Users/samerabdallah/.nuget/packages/",
+        "outputPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/samerabdallah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/Xprema.Managment.Domain.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/Xprema.Managment.Domain.csproj"
+              },
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application/Xprema.Managment.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application/Xprema.Managment.Application.csproj",
+        "projectName": "Xprema.Managment.Application",
+        "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application/Xprema.Managment.Application.csproj",
+        "packagesPath": "/Users/samerabdallah/.nuget/packages/",
+        "outputPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/samerabdallah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application.Contracts/Xprema.Managment.Application.Contracts.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application.Contracts/Xprema.Managment.Application.Contracts.csproj"
+              },
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/Xprema.Managment.Domain.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/Xprema.Managment.Domain.csproj"
+              },
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.EntityFrameworkCore/Xprema.Managment.EntityFrameworkCore.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.EntityFrameworkCore/Xprema.Managment.EntityFrameworkCore.csproj"
+              },
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/Xprema.Managment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/Xprema.Managment.Domain.csproj",
+        "projectName": "Xprema.Managment.Domain",
+        "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/Xprema.Managment.Domain.csproj",
+        "packagesPath": "/Users/samerabdallah/.nuget/packages/",
+        "outputPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/samerabdallah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.EntityFrameworkCore/Xprema.Managment.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.EntityFrameworkCore/Xprema.Managment.EntityFrameworkCore.csproj",
+        "projectName": "Xprema.Managment.EntityFrameworkCore",
+        "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.EntityFrameworkCore/Xprema.Managment.EntityFrameworkCore.csproj",
+        "packagesPath": "/Users/samerabdallah/.nuget/packages/",
+        "outputPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.EntityFrameworkCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/samerabdallah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/Xprema.Managment.Domain.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Domain/Xprema.Managment.Domain.csproj"
+              },
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/Xprema.Managment.HttpApi.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/Xprema.Managment.HttpApi.Host.csproj",
+        "projectName": "Xprema.Managment.HttpApi.Host",
+        "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/Xprema.Managment.HttpApi.Host.csproj",
+        "packagesPath": "/Users/samerabdallah/.nuget/packages/",
+        "outputPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.HttpApi.Host/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/samerabdallah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application/Xprema.Managment.Application.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.Application/Xprema.Managment.Application.csproj"
+              },
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.EntityFrameworkCore/Xprema.Managment.EntityFrameworkCore.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/src/ManagmentSystem/Xprema.Managment.EntityFrameworkCore/Xprema.Managment.EntityFrameworkCore.csproj"
+              },
+              "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj": {
+                "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj",
+        "projectName": "Xprema.Framework",
+        "projectPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/Xprema.Framework.csproj",
+        "packagesPath": "/Users/samerabdallah/.nuget/packages/",
+        "outputPath": "/Users/samerabdallah/RiderProjects/Xprema.Management/Xprema.Framework/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/samerabdallah/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Routing": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

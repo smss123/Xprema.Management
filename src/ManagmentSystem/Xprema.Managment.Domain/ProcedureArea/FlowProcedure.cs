@@ -14,3 +14,4 @@ public class FlowProcedure:BaseEntity<Guid>
     public string? Icon { get; set; }
     public bool IsSystem { get; set; }
 }
+

@@ -1,17 +1,91 @@
-src/ManagmentSystem/Xprema.Managment.Domain/obj/project.assets.json
-src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
-src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.AssemblyInfo.cs
-src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.AssemblyInfoInputs.cache
-src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.assets.cache
-src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.csproj.AssemblyReference.cache
-src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.GeneratedMSBuildEditorConfig.editorconfig
-src/ManagmentSystem/Xprema.Managment.Domain/obj/Debug/net9.0/Xprema.Managment.Domain.GlobalUsings.g.cs
-src/ManagmentSystem/Xprema.Managment.Domain/ProcedureArea/FlowProcedure.cs
-src/ManagmentSystem/Xprema.Managment.Domain/obj/project.nuget.cache
-src/ManagmentSystem/Xprema.Managment.Domain/obj/project.packagespec.json
-src/ManagmentSystem/Xprema.Managment.Domain/obj/rider.project.model.nuget.info
-src/ManagmentSystem/Xprema.Managment.Domain/obj/rider.project.restore.info
-Xprema.Framework/obj/Debug/net9.0/Xprema.Framework.AssemblyInfo.cs
-Xprema.Framework/obj/Debug/net9.0/Xprema.Framework.AssemblyInfoInputs.cache
-Xprema.Framework/obj/Debug/net9.0/Xprema.Framework.AssemblyInfo.cs
-Xprema.Framework/obj/Debug/net9.0/Xprema.Framework.AssemblyInfoInputs.cache
+# .NET build files - handles all projects in solution
+**/bin/
+**/obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+**/*.DotSettings.user
+
+# Individual project build results
+# Xprema.Framework
+Xprema.Framework/bin/
+Xprema.Framework/obj/
+
+# Xprema.Framework.tests
+Xprema.Framework.tests/bin/
+Xprema.Framework.tests/obj/
+
+# Xprema.Management
+Xprema.Management/bin/
+Xprema.Management/obj/
+
+# Xprema.Managment.Application
+Xprema.Managment.Application/bin/
+Xprema.Managment.Application/obj/
+
+# Visual Studio files
+.vs/
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.cache
+**/*.csproj.user
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains Rider
+**/.idea/
+*.sln.iml
+**/*.DotSettings
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Build specific files
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Local History for Visual Studio
+.localhistory/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Specific project-generated files
+**/project.assets.json
+**/project.nuget.cache
+**/project.packagespec.json
+**/rider.project.model.nuget.info
+**/rider.project.restore.info
+**/*.csproj.nuget.dgspec.json
+**/*.csproj.nuget.g.props
+**/*.csproj.nuget.g.targets
